@@ -132,7 +132,6 @@ main {
 
 .col-1 {
     height: 30px;
-    background: blue;
     width: 12%;
 }
 
@@ -143,13 +142,16 @@ main {
 
 .col-3 {
     height: 30px;
-    background: purple;
     width: 43%;
 }
 
 #results {
-    font-size: 0.75em;
+    font-size: 0.85em;
     color: #8f8f8f;
+}
+
+article {
+    margin-top: 20px;
 }
 
 article h2 {
@@ -163,13 +165,26 @@ article a:hover {
 }
 
 article p.url {
-    color: #0b5801;
+    color: #0b5501;
     font-size: 0.95em;
+    margin: 2px 0;
 }
 
 article p span {
-    border: 1px solid #0b5801;
+    border: 1px solid #0b5501;
     border-radius: 4px;
     padding: 0 1px;
     font-size: 0.8em;
+}
+
+article p.rating {
+    font-size: 0.8em;
+    color: #8f8f8f;
+    margin: 5px 0;
+}
+
+article p.blurb {
+    font-size: 0.85em;
+    color: #5a5a5a;
+    line-height: 1.4;
 }
