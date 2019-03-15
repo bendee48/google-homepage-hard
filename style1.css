@@ -93,6 +93,8 @@ div.search-bar {
 .search-bar input {
   height: 44px;
   width: 620px;
+  padding-left: 20px;
+  opacity: 0.8;
   font-size: 16px;
   border: 1px solid #dfe1e5;
   border-radius: 24px;
@@ -266,6 +268,47 @@ a.end-search-links li {
   font-size: 14px;
 }
 
+/*Logo search*/
+.logo-search {
+  margin-top: 40px;
+  text-align: center;
+}
+
+span.Go {
+  display: inline-block;
+  border: 1px solid #f4f4f4;
+  height: 40px;
+  width: 50px;
+  background-image: url("https://www.google.com/images/nav_logo242.png");
+  background-position: -24px 0;
+}
+
+span.o {
+  display: inline-block;
+  height: 39px;
+  width: 20px;
+  background-image: url("https://www.google.com/images/nav_logo242.png");
+  background-position: -74px 0;
+}
+
+span.gle {
+  display: inline-block;
+  height: 39px;
+  width: 71px;
+  background-image: url("https://www.google.com/images/nav_logo242.png");
+  background-position: -96px 0;
+}
+
+.small-links ul {
+  margin-left: 75px;
+}
+
+.small-links li {
+  padding: 0 5px;
+  font-size: 14px;
+  color: rgb(26, 13, 171);
+}
+
 /*Footer*/
 
 #footer-1 {
@@ -273,12 +316,11 @@ a.end-search-links li {
   height: 41px;
   bottom: 41px;
   background-color: red;
-  margin-top: 100px;
+  margin-top: 40px;
   background-color: #f2f2f2;
   text-align: left;
   border-top: 1px solid #d2d2d2;
 }
-
 
 #footer-2 {
     width: 100%;
